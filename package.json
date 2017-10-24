@@ -1,0 +1,26 @@
+{
+  "name": "reposytore_for_tests_jenkins",
+  "version": "1.0.0",
+  "description": "for tests",
+  "main": "phase_1.js",
+  "dependencies": {
+    "git-rev-sync": "^1.9.1",
+    "git-branch": "^1.0.0",
+    "gulp": "^3.9.1",
+    "nodegit": "^0.20.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitalySimikov/repository_for_tests_jenkins.git"
+  },
+  "author": "svs405",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitalySimikov/repository_for_tests_jenkins/issues"
+  },
+  "homepage": "https://github.com/VitalySimikov/repository_for_tests_jenkins#readme"
+}
