@@ -11,3 +11,7 @@ console.log('branch\tname\t'+git.branch());
 //     console.log(str);
 //   });
 
+var git_proc = require('child_proccess');
+git_proc.exec('git rev-parse HEAD', function(err, stdout) {
+    console.log('Last commit hash on this branch is:', stdout);
+});

@@ -4,6 +4,7 @@
   "description": "for tests",
   "main": "phase_1.js",
   "dependencies": {
+    "child_process": "^1.0.2",
     "git-branch": "^1.0.0",
     "git-log": "0.0.1",
     "git-rev-sync": "^1.9.1",
